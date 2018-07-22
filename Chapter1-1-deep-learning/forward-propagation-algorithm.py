@@ -3,7 +3,8 @@
 #Put the hidden layer values into an array. This has been done for you.
 #Generate the prediction by multiplying hidden_layer_outputs by weights['output'] and computing their sum. 
 
-import numpy as np
+# Import package
+import numpy as np 
 
 # The input data has been pre-loaded as input_data
 input_data = np.array([3, 5])
