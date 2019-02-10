@@ -4,7 +4,7 @@
 #Generate the prediction by multiplying hidden_layer_outputs by weights['output'] and computing their sum. 
 
 # Import package
-import numpy as np 
+import numpy as np
 
 # The input data has been pre-loaded as input_data
 input_data = np.array([3, 5])

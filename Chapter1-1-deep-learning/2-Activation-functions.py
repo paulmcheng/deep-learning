@@ -4,7 +4,6 @@
 # This function takes a single number as an input, returning 0 if the input is negative, and the input if the input is positive.
 
 def relu(input):
-    '''Define your relu activation function here'''
     # Calculate the value for the output of the relu function: output
     output = max(input, 0)
     
@@ -18,7 +17,7 @@ import numpy as np
 input_data = np.array([3, 5])
 
 # The weights are available in a dictionary called weights
-weights = {'node_0': array([2, 4]), 'node_1': array([ 4, -5]), 'output': array([2, 7])}
+weights = {'node_0': np.array([2, 4]), 'node_1': np.array([ 4, -5]), 'output': np.array([2, 7])}
 
 # Calculate node 0 value: node_0_output
 node_0_input = (input_data * weights['node_0']).sum()
