@@ -1,6 +1,6 @@
 #Calculate the value in node 0 by multiplying input_data by its weights weights['node_0'] and computing their sum. This is the 1st node in the hidden layer.
 #Calculate the value in node 1 using input_data and weights['node_1']. This is the 2nd node in the hidden layer.
-#Put the hidden layer values into an array. This has been done for you.
+#Put the hidden layer values into an array. 
 #Generate the prediction by multiplying hidden_layer_outputs by weights['output'] and computing their sum. 
 
 # Import package
